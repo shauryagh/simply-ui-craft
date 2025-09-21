@@ -59,3 +59,110 @@ cd mindwell
 npm install
 # or
 yarn install
+```
+
+### Configuration
+
+Create a `.env` file with the required environment variables:
+
+```env
+NEXT_PUBLIC_API_URL=your_api_url
+DATABASE_URL=your_database_connection_string
+JWT_SECRET=your_jwt_secret
+NODE_ENV=development
+```
+
+### Running Locally
+
+```bash
+# Development mode
+npm run dev
+# or
+yarn dev
+
+# Production build
+npm run build
+npm start
+```
+
+---
+
+## Usage
+
+1. Register or log in to your account  
+2. Set up your profile & preferences  
+3. Explore wellness tools (meditation, journaling, reminders)  
+4. Track your progress with insights & analytics  
+5. Stay consistent with notifications and reminders  
+
+---
+
+## Project Structure
+
+```plaintext
+mindwell/
+├── public/            # Static assets (images, icons)
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Pages / Routes
+│   ├── styles/         # CSS or styling utilities
+│   ├── hooks/          # Custom React hooks
+│   ├── utils/          # Helper functions
+│   └── services/       # API / business logic
+├── .env                # Environment variables
+├── package.json
+└── README.md
+```
+
+---
+
+## Contributing
+
+Contributions are welcome!  
+
+1. Fork the repo  
+2. Create a feature branch (`git checkout -b feature-name`)  
+3. Commit your changes (`git commit -m 'Add feature'`)  
+4. Push the branch (`git push origin feature-name`)  
+5. Open a Pull Request  
+
+---
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+Author: **Your Name**  
+Email: your.email@example.com  
+GitHub: [yourusername](https://github.com/yourusername)  
+Project Link: [https://github.com/yourusername/mindwell](https://github.com/yourusername/mindwell)  
+
+---
+
+## 👨‍💻 Team Members
+
+- **Shaurya Goyal**  
+  [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/shauryagh)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaurya1207/)
+
+- **Nishchay Garg**  
+  [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Nishchay71177)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishchay-garg-a04994351/)
+
+- **Pavani Sharma**  
+  [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/pavanisharma18)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pavani-sharma-250444361)
+
+- **Suhani Aggarwal**  
+  [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/dpsvnsuha13039-wq)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suhani-aggarwal-478657323)
+
+---
+
+## 🏗️ Architecture Diagram
+
+![Architecture Diagram](architecture_diagram.png)
