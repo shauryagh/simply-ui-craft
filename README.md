@@ -52,24 +52,13 @@ Follow these steps to set up the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mindwell.git
+git clone https://github.com/shauryagh/simply-ui-craft.git
 cd mindwell
 
 # Install dependencies
 npm install
 # or
 yarn install
-```
-
-### Configuration
-
-Create a `.env` file with the required environment variables:
-
-```env
-NEXT_PUBLIC_API_URL=your_api_url
-DATABASE_URL=your_database_connection_string
-JWT_SECRET=your_jwt_secret
-NODE_ENV=development
 ```
 
 ### Running Locally
@@ -114,34 +103,6 @@ mindwell/
 └── README.md
 ```
 
----
-
-## Contributing
-
-Contributions are welcome!  
-
-1. Fork the repo  
-2. Create a feature branch (`git checkout -b feature-name`)  
-3. Commit your changes (`git commit -m 'Add feature'`)  
-4. Push the branch (`git push origin feature-name`)  
-5. Open a Pull Request  
-
----
-
-## License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## Contact
-
-Author: **Your Name**  
-Email: your.email@example.com  
-GitHub: [yourusername](https://github.com/yourusername)  
-Project Link: [https://github.com/yourusername/mindwell](https://github.com/yourusername/mindwell)  
-
----
 
 ## 👨‍💻 Team Members
 
