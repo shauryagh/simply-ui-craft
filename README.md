@@ -4,21 +4,6 @@ MindWell is a wellness & self-help web application (Simply UI Craft) designed to
 
 ---
 
-## Table of Contents
-
-- [Features](#features)  
-- [Demo / Screenshots](#demo--screenshots)  
-- [Tech Stack](#tech-stack)  
-- [Getting Started](#getting-started)  
-- [Usage](#usage)  
-- [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)  
-- [👨‍💻 Team Members](#-team-members)  
-
----
-
 ## Features
 
 - Personalized dashboard with key mental wellness metrics  
