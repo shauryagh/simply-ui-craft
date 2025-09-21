@@ -1,68 +1,76 @@
+# MindWell ‒ Your Personal Wellness Platform
 
-
----
-
-# 🧩 **Project: MindPal – Your AI Memory & Knowledge Twin**
-
-### 🔹 Problem
-
-* People forget information they learn (lectures, notes, research).
-* Notes apps are static → you can’t interact or ask questions about your own knowledge.
+MindWell is a wellness & self-help web application (Simply UI Craft) designed to help users improve their mental health and wellbeing through personalized tools, insights, and guided exercises.
 
 ---
 
-### 🔹 Solution
+## Table of Contents
 
-**MindPal** is an **AI-powered personal knowledge assistant** that:
-
-1. Lets users upload notes, PDFs, and text snippets.
-2. Creates a **knowledge graph** connecting concepts automatically.
-3. Allows users to **chat with their notes**:
-
-   * Example: “Explain the key points of last week’s lecture.”
-4. Uses **smart summarization + retrieval** to surface information in plain language.
-5. Optional gamification: reminds you of forgotten notes (spaced repetition).
-
----
-
-
-
-### 🔹 Demo Example
-
-1. Upload a PDF or notes.
-2. Ask your MindPal:
-
-   * “Summarize this in 3 points.”
-   * “Explain the link between concept A and B.”
-3. App shows AI-generated answer + graph highlighting related concepts.
+- [Features](#features)  
+- [Demo / Screenshots](#demo--screenshots)  
+- [Tech Stack](#tech-stack)  
+- [Getting Started](#getting-started)  
+- [Usage](#usage)  
+- [Project Structure](#project-structure)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Contact](#contact)  
+- [👨‍💻 Team Members](#-team-members)  
 
 ---
 
-### 🔹 Tech Stack
+## Features
 
-* **Frontend**: React / Next.js
-* **Backend**: FastAPI / Flask (Python)
-* **AI / NLP**: OpenAI API embeddings, LangChain
-* **Knowledge Graph**: NetworkX (small MVP) or Neo4j (if scalable)
-* **Database**: MongoDB or PostgreSQL
+- Personalized dashboard with key mental wellness metrics  
+- Guided exercises (meditation, breathing, journaling, etc.)  
+- Goal setting & habit tracking  
+- Insights & progress analytics  
+- Notifications & reminders to stay consistent  
+- Responsive design for desktop and mobile  
+- Secure user accounts, privacy-first approach  
 
 ---
-## 👨‍💻 Team Members
 
-- **Shaurya Goyal**  
-  [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/shauryagh)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaurya1207/)
+## Demo / Screenshots
 
-- **Nishchay Garg**  
-  [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Nishchay71177)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishchay-garg-a04994351/)
+Live Demo: [MindWell on Simply UI Craft](https://simply-ui-craft.vercel.app/)  
 
-- **Pavani Sharma**  
-  [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/pavanisharma18)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pavani-sharma-250444361)
+*(Add screenshots of the app here if available)*
 
-- **Suhani Aggarwal**  
-  [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/dpsvnsuha13039-wq)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suhani-aggarwal-478657323)
+---
 
--------
+## Tech Stack
+
+| Layer | Technology (example) |
+|---|---|
+| Frontend | React.js / Next.js |
+| UI / Styling | Tailwind CSS |
+| State Management | Context API / Redux |
+| Backend / API | Node.js / Express |
+| Database | MongoDB / PostgreSQL |
+| Authentication | JWT / NextAuth |
+| Deployment | Vercel |
+
+---
+
+## Getting Started
+
+Follow these steps to set up the project locally:
+
+### Prerequisites
+
+- Node.js (>= 18)  
+- npm or yarn  
+- Git  
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/mindwell.git
+cd mindwell
+
+# Install dependencies
+npm install
+# or
+yarn install
