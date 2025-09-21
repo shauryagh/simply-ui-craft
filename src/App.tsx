@@ -8,6 +8,10 @@ import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Dashboard from "./components/Dashboard";
 import MoodTracker from "./components/MoodTracker";
+import ProgressTracker from "./components/ProgressTracker";
+import GoalsManager from "./components/GoalsManager";
+import JournalFeature from "./components/JournalFeature";
+import SessionScheduler from "./components/SessionScheduler";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -35,10 +39,10 @@ const App = () => {
                 <Routes>
                   <Route path="/" element={<Dashboard onNavigate={handleNavigate} />} />
                   <Route path="/mood" element={<MoodTracker />} />
-                  <Route path="/progress" element={<div className="p-8 text-center">Progress tracking coming soon!</div>} />
-                  <Route path="/goals" element={<div className="p-8 text-center">Goals management coming soon!</div>} />
-                  <Route path="/journal" element={<div className="p-8 text-center">Journal feature coming soon!</div>} />
-                  <Route path="/sessions" element={<div className="p-8 text-center">Sessions scheduling coming soon!</div>} />
+                  <Route path="/progress" element={<ProgressTracker />} />
+                  <Route path="/goals" element={<GoalsManager />} />
+                  <Route path="/journal" element={<JournalFeature />} />
+                  <Route path="/sessions" element={<SessionScheduler />} />
                   <Route path="/community" element={<div className="p-8 text-center">Community features coming soon!</div>} />
                   <Route path="/insights" element={<div className="p-8 text-center">Insights dashboard coming soon!</div>} />
                   <Route path="/chat" element={<div className="p-8 text-center">Chat support coming soon!</div>} />
