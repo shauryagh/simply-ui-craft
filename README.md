@@ -162,7 +162,3 @@ Project Link: [https://github.com/yourusername/mindwell](https://github.com/your
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suhani-aggarwal-478657323)
 
 ---
-
-## 🏗️ Architecture Diagram
-
-![Architecture Diagram](architecture_diagram.png)
