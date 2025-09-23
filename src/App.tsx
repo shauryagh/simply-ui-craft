@@ -12,6 +12,7 @@ import ProgressTracker from "./components/ProgressTracker";
 import GoalsManager from "./components/GoalsManager";
 import JournalFeature from "./components/JournalFeature";
 import SessionScheduler from "./components/SessionScheduler";
+import ChatSupport from "./components/ChatSupport";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -45,7 +46,7 @@ const App = () => {
                   <Route path="/sessions" element={<SessionScheduler />} />
                   <Route path="/community" element={<div className="p-8 text-center">Community features coming soon!</div>} />
                   <Route path="/insights" element={<div className="p-8 text-center">Insights dashboard coming soon!</div>} />
-                  <Route path="/chat" element={<div className="p-8 text-center">Chat support coming soon!</div>} />
+                  <Route path="/chat" element={<ChatSupport />} />
                   <Route path="/mindfulness" element={<div className="p-8 text-center">Mindfulness exercises coming soon!</div>} />
                   <Route path="*" element={<NotFound />} />
                 </Routes>
